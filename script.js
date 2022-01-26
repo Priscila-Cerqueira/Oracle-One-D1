@@ -1,4 +1,5 @@
 
+
 function cripto(){
 
     var texto = document.getElementById('quadroCod').value;
