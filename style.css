@@ -1,0 +1,98 @@
+* {
+  margin: 20;
+  padding: 50;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to left, orange, purple);
+  font-family: Courier new, Arial, Tahoma, sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: Courier New;
+    text-align: center;
+    margin: 1.5em;
+}
+h2 {
+    color: white;
+    font-family: Courier New;
+    text-align: center;
+    margin: 2em;
+}
+
+.txt {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border: solid;
+}
+
+#msgInformativa {
+    color: white;
+    font-family: Courier New;
+    text-align: center;
+    font-size: 35px;
+}
+
+textarea {
+    transition: box-shadow .50s;
+}
+
+.alinha {
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+#quadroCod {
+    position: center;
+    right: 0px;
+}
+
+#quadroDecod {
+    position: relative;
+    left: 10px;
+}
+
+.formatar-botaoCrip {
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+    color: black;
+    background-image: linear-gradient(to right, orange, purple);
+    position: relative;
+    top: 20px;
+}
+
+.formatar-botaoCop {
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+    color: black;
+    background-image: linear-gradient(to right, orange, purple);
+    position: relative;
+    top: 20px;
+}
+
+.formatar-botaoDesc {
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+    color: black;
+    background-image: linear-gradient(to right, orange, purple);
+    position: relative;
+    top: 20px;
+}
+.formatar-botao:hover {
+    background-color: #adff2f;
+}
+
+.alinha-botao {
+    text-align: center;
+}
+
+#copiar-texto:hover {
+    background-color: #FFA500;
+}

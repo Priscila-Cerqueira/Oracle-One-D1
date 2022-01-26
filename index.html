@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Secret!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Enigma!<br></h1>
+
+  <h2>"Só é artista aquele que é capaz de transformar a solução num enigma."<br> Kalr Kraus <br></h2>
+
+
+  <div class="alinha">
+
+    <textarea id="quadroCod" rows="05", cols="50" placeholder="Para criptrografar digite aqui"></textarea>
+    <textarea id="quadroDecod" rows="05", cols="50" placeholder="Para descriptrografar digite aqui"></textarea>
+
+  </div>
+
+  <div class="alinha-botao">
+
+    <button class="formatar-botaoCrip" onclick="cripto()">Criptografar</button>
+    <button class="formatar-botaoCop" onclick="copy()">Copiar</button>
+    <button class="formatar-botaoDesc" onclick="descripto()">Descriptografar</button>
+    <br>
+
+  </div>
+
+  <p id="msgInformativa"></p>
+
+  <script src="script.js"> </script>
+
+</body>
+
+</html>
